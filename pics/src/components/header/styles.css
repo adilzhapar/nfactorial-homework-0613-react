@@ -1,0 +1,38 @@
+.date {
+    display: none;
+}
+
+@media (min-width: 767px)  {
+    .date {
+        width: calc(100% - 25%);
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.header {
+    height: 80px;
+    background-color: #333;
+    padding-left: 20px;
+    display: flex;
+}
+.logo {
+    margin-top: 13px;
+}
+
+.inp{
+    margin: 20px 25px;
+    border-radius: 20px;
+    background-color: rgb(105, 105, 105);
+    outline: none;
+    border: none;
+}
+
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+
+
+

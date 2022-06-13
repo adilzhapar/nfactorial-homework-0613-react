@@ -1,0 +1,68 @@
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+.col-2 {
+background-color: aqua;
+border: 1px solid blue;
+}
+
+.image-card{
+    padding: 0 !important;
+}
+
+img{
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.txt-on-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -3%;
+    margin-top: -3%;
+    align-items: center;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.ll {
+    margin-left: -10%
+}
+
+  
+  
+@media (min-width: 767px)  {
+    .image-card {
+        flex: 0 0 20%!important;
+        max-width: 20%!important;
+        padding: 0 !important;
+    }
+
+    img {
+        width: 100% !important;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .txt-on-img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -20%;
+        margin-top: -20%;
+        align-items: center;
+        padding: 0;
+        color: white;
+        font-size: 40px;
+        font-family: 'Lobster', cursive;
+    }
+    .ll{
+        margin-left: -25%;
+    }
+}
+  
